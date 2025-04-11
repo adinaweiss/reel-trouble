@@ -35,24 +35,27 @@
   /* Navigation */
   nav {
     background-color: #023e8a;
-    text-align: center;
     padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
+  
   nav a {
-    display: inline-block;
     background-color: #0077b6;
     color: white;
     padding: 10px 20px;
     border-radius: 12px;
-    margin: 0 10px;
     font-weight: bold;
     transition: background-color 0.3s ease;
   }
+  
   nav a:hover,
   nav a:focus {
     background-color: #00b4d8;
     color: #001219;
   }
+  
   
   /* Main Content */
   main {
