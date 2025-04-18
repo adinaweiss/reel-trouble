@@ -240,3 +240,9 @@ main {
 .read-more-btn:hover {
   background-color: #023e8a;
 }
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
