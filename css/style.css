@@ -138,10 +138,32 @@ main {
   line-height: 1.5;
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.resource-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.resource-item img {
+  width: 150px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.resource-text {
+  flex: 1;
+}
+
 .read-more-btn {
   display: inline-block;
   margin-top: 0.5rem;
-  background-color: #0077b6; /* match nav button color */
+  background-color: #0077b6; /* match your nav link color */
   color: white;
   text-decoration: none;
   padding: 0.4rem 1rem;
