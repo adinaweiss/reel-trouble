@@ -106,3 +106,34 @@ main {
     margin: 0 0 10px 0;
   }
 }
+.card-container {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.resource-item {
+  display: flex;
+  align-items: center;
+  background-color: #e0f7fa;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.resource-item img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.resource-item p {
+  flex: 1;
+  color: #00334e;
+  font-size: 1rem;
+  line-height: 1.5;
+}
