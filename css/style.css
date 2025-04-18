@@ -74,16 +74,18 @@ main {
 /* Individual Resource Card */
 .resource-item {
   display: flex;
+  flex-direction: row;
   background-color: #f5faff;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   overflow: hidden;
+  gap: 20px;
+  padding: 1rem;
 }
 
 /* Image Section */
 .image-wrapper {
   flex-shrink: 0;
-  padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,10 +99,10 @@ main {
 /* Text Section */
 .resource-text {
   flex: 1;
-  padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 1rem 1.5rem;
 }
 
 /* Paragraph Text */
@@ -113,7 +115,9 @@ main {
 
 /* Button */
 .button-group {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }
 .read-more-btn {
   display: inline-block;
