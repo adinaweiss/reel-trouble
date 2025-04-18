@@ -137,3 +137,23 @@ main {
   font-size: 1rem;
   line-height: 1.5;
 }
+
+.read-more-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  background-color: #0077b6; /* match nav button color */
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background-color: #023e8a;
+}
+
+.btn-container {
+  text-align: left;
+}
